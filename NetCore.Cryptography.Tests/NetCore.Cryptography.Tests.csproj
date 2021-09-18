@@ -16,12 +16,10 @@
   <ItemGroup>
     <None Remove="Services\" />
     <None Remove="Services\Random\" />
-    <None Remove="Services\Hash\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Services\" />
     <Folder Include="Services\Random\" />
-    <Folder Include="Services\Hash\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\NetCore.Cryptography\NetCore.Cryptography.csproj" />
