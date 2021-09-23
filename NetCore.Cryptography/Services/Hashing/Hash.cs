@@ -9,11 +9,6 @@ namespace NetCore.Cryptography.Services.Hashing
     public class Hash
     {
 
-        public Hash()
-        {
-
-        }
-
         public byte[] ComputeSHA256(byte[] toBeHashed)
         {
             using var sha256 = SHA256.Create();

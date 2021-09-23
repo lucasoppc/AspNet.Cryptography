@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <PackageId>lucasoppc.NetCore.Cryptography</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.1.0</Version>
     <Authors>Lucas Hernandez</Authors>
     <Company>Lucas Hernandez</Company>
     <RepositoryUrl>https://github.com/lucasoppc/NetCore.Cryptography</RepositoryUrl>
@@ -14,10 +14,15 @@
     <None Remove="Services\" />
     <None Remove="Services\Random\" />
     <None Remove="Services\Hash\" />
+    <None Remove="Services\Hmac\" />
+    <None Remove="Services\Encryption\" />
+    <None Remove="Util\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Services\" />
     <Folder Include="Services\Random\" />
     <Folder Include="Services\Hashing\" />
+    <Folder Include="Services\Encryption\" />
+    <Folder Include="Util\" />
   </ItemGroup>
 </Project>
